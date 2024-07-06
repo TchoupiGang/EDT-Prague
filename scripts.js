@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const prevWeekButton = document.getElementById('prev-week');
     const nextWeekButton = document.getElementById('next-week');
 
+
+    const mob_prevWeekButton = document.getElementById('mobile-prev-week');
+    const mobnextWeekButton = document.getElementById('mobile-next-week');
+
     let currentWeekIndex = 0;
     let scheduleData;
 
@@ -96,7 +100,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
         }
-
+        mob_prevWeekButton.disabled = weekIndex === 0;
+        mobnextWeekButton.disabled = weekIndex === weekKeys.length - 1;
         prevWeekButton.disabled = weekIndex === 0;
         nextWeekButton.disabled = weekIndex === weekKeys.length - 1;
     }
@@ -110,6 +115,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     nextWeekButton.addEventListener('click', () => {
+        if (currentWeekIndex < Object.keys(scheduleData).length - 1) {
+            currentWeekIndex++;
+            loadWeekData(currentWeekIndex);
+            updateWeekHighlight();
+        }
+    });
+
+    mob_prevWeekButton.addEventListener('click', () => {
+        if (currentWeekIndex > 0) {
+            currentWeekIndex--;
+            loadWeekData(currentWeekIndex);
+            updateWeekHighlight();
+        }
+    });
+
+    mobnextWeekButton.addEventListener('click', () => {
         if (currentWeekIndex < Object.keys(scheduleData).length - 1) {
             currentWeekIndex++;
             loadWeekData(currentWeekIndex);

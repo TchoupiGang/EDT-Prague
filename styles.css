@@ -259,37 +259,44 @@ body {
     width: 100%;
 }
 
+.mobile-nav-buttons {
+    display: none;
+}
+
 
 @media (max-width: 1000px) {
     .sidebar {
-        display: none; /* Cache la sidebar sur les petits écrans */
+        display: none; 
     }
 
     .calendar {
-        width: 100%; /* Le calendrier prend toute la largeur */
-        float: none; /* Neutralise le float pour les petits écrans */
+        width: 100%; 
+        float: none; 
     }
 
-    .button-container {
+    .mobile-nav-buttons {
         display: flex;
-        justify-content: space-between;
-        width: 100%; /* Assurez-vous que les boutons sont répartis sur toute la largeur */
-        padding: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ajoute une légère ombre pour un effet de séparation */
-        background-color: #f0f0f5; /* Couleur de fond pour la container des boutons */
-    }
-
-    .nav-button {
-        flex: 1; /* Permet aux boutons de remplir l'espace disponible de manière égale */
-        margin: 0 5px; /* Ajoute un petit espace entre les boutons */
+        justify-content: center;
+        align-items: center; 
+        width: 100%; 
+        background-color: #f0f0f5; 
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 10px 0; 
     }
 
     .calendar-weekdays div, .calendar-timeslots div {
-        padding: 5px 0; /* Réduit le padding sur les petits écrans */
-        font-size: 12px; /* Ajustez la taille de la police pour mieux s'adapter */
+        padding: 5px 0; 
+        font-size: 12px;
     }
 
     .calendar-weekdays div, .calendar-timeslots div {
-        flex: 1 1 0px; /* Chaque div peut grandir et rétrécir de la même manière, avec une base de 0px */
+        flex: 1 1 0px; 
+    }
+
+    .container {
+        width: 100%; 
+        display: block;
+        flex-direction: column;
+        align-items: center;
     }
 }

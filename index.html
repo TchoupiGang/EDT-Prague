@@ -40,24 +40,32 @@
             </tbody>
         </table>
     </div>
-    <div class="calendar">
-        <div class="calendar-header">
-            <h1 id="week-title">Weekly Schedule</h1>
-            <div id="calendar-month-year"></div>
+    <div class="container">
+
+        <div class="calendar">
+            <div class="calendar-header">
+                <h1 id="week-title">Weekly Schedule</h1>
+                <div id="calendar-month-year"></div>
+            </div>
+            <div class="calendar-body">
+                <div class="calendar-weekdays">
+                    <div>Time</div>
+                    <div>MON</div>
+                    <div>TUE</div>
+                    <div>WED</div>
+                    <div>THU</div>
+                    <div>FRI</div>
+                    <div>SAT</div>
+                    <div>SUN</div>
+                </div>
+                <div class="calendar-timeslots" id="calendar-timeslots">
+                </div>
+            </div>
         </div>
-        <div class="calendar-body">
-            <div class="calendar-weekdays">
-                <div>Time</div>
-                <div>MON</div>
-                <div>TUE</div>
-                <div>WED</div>
-                <div>THU</div>
-                <div>FRI</div>
-                <div>SAT</div>
-                <div>SUN</div>
-            </div>
-            <div class="calendar-timeslots" id="calendar-timeslots">
-            </div>
+
+        <div class="mobile-nav-buttons">
+            <button id="mobile-prev-week" class="nav-button">&lt;</button>
+            <button id="mobile-next-week" class="nav-button">&gt;</button>
         </div>
     </div>
 
