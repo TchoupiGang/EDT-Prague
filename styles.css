@@ -258,3 +258,29 @@ body {
     border-spacing: 10px 5px;
     width: 100%;
 }
+
+
+@media (max-width: 1000px) {
+    .sidebar {
+        display: none; /* Cache la sidebar sur les petits écrans */
+    }
+
+    .calendar {
+        width: 100%; /* Le calendrier prend toute la largeur */
+        float: none; /* Neutralise le float pour les petits écrans */
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%; /* Assurez-vous que les boutons sont répartis sur toute la largeur */
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ajoute une légère ombre pour un effet de séparation */
+        background-color: #f0f0f5; /* Couleur de fond pour la container des boutons */
+    }
+
+    .nav-button {
+        flex: 1; /* Permet aux boutons de remplir l'espace disponible de manière égale */
+        margin: 0 5px; /* Ajoute un petit espace entre les boutons */
+    }
+}
