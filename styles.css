@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-color: #f0f0f5;
+}
+
+
+.static-calendar th, .static-calendar td {
+    padding: 8px;
+    text-align: center;
+    width: 14%;
+    font-weight: normal;
+}
+
+.static-calendar th {
+    font-weight: bold;
+    color: #4A90E2;
+}
+
+.static-calendar {
+    width: 100%;
+    margin-top: 20px; 
+    border-collapse: collapse;
+    background-color: white; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.nav-button {
+    padding: 15px 20px;
+    margin: 5px 10px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.nav-button:disabled {
+    background-color: #cccccc;
+    cursor: default;
+}
+
+.calendar {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar-header {
+    background-color: #4A90E2;
+    color: #fff;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.calendar-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    overflow-y: hidden;
+}
+
+.calendar-weekdays {
+    display: flex;
+    background-color: #f4f4f4;
+    flex: 0 0 auto;
+}
+
+.calendar-weekdays div {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.static-calendar td {
+    position: relative;  
+    padding: 8px; 
+    text-align: center; 
+    width: 14%;
+    height: 40px; 
+    line-height: 40px; 
+}
+
+
+.static-calendar .current-day {
+    color: white; 
+    font-weight: bold; 
+}
+
+.static-calendar .current-day span {
+    position: relative;
+    z-index: 1; 
+}
+
+.static-calendar .current-day::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #4A90E2;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0; 
+}
+
+.calendar-timeslots {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+.calendar-row {
+    display: flex;
+    flex: 1;
+}
+
+.calendar-header-cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+
+.calendar-timeslot {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    border : 1px solid #a1a1a1;
+}
+
+.time-cell::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -4px; 
+    height: 3px; 
+    z-index: 1;
+    border : 1px solid #a1a1a1;
+}
+
+.time-cell::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    height: 3px;
+    z-index: 1;
+    border : 1px solid #a1a1a1;
+}
+
+.time-cell {
+    display: flex;
+    flex: 0 0 10%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    margin: 0;
+    color: #a1a1a1;
+    padding: 3px;
+    position: relative;
+}
+
+.time-start, .time-end {
+    width: 100%;
+    text-align: center;
+}
+
+.time-end {
+    align-self: center;
+    padding-top: 20px;  
+}
+
+.calendar-timeslot.filled {
+    display: flex;
+}
+
+.calendar-timeslot.hidden-event {
+    visibility: hidden;
+}
+
+.calendar-timeslot.empty-event {
+    visibility: hidden;
+}
+
+.probability-statistics {
+    background-color: #ffcccc;
+    border: 1px solid #ff4545;
+}
+
+.voip {
+    background-color: #ffdfc0;
+    border: 1px solid #ffa954;
+}
+
+.network-securite {
+    background-color: #ccffcc;
+    border: 1px solid #49ff49;
+}
+
+.english {
+    background-color: #e8f7ff;
+    border: 1px solid #46beff;
+}
+
+.highlight-week {
+    border: 2px solid #4A90E2; 
+    border-radius: 15px; 
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.5); 
+    margin: 5px 0; 
+    padding: 5px 0;
+}
+
+.static-calendar {
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    width: 100%;
+}

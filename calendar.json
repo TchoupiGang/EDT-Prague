@@ -1,0 +1,117 @@
+{
+    "Semaine 8 juillet au 14 juillet": {
+      "Monday": [
+        {"time": "8:15-9:45", "event": "Initial meeting", "room": "D3-309"},
+        {"time": "10:00-11:30", "event": "English L1", "room": "D3-309"},
+        {"time": "12:30-14:00", "event": "Network Securite L1", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "Network Securite S1", "room": "C4-365"}
+      ],
+      "Tuesday": [
+        {"time": "12:30-14:00", "event": "Network Securite L2", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "Network Securite S2", "room": "C4-365"}
+      ],
+      "Wednesday": [
+        {"time": "12:30-14:00", "event": "Network Securite L3", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "Network Securite S3", "room": "C4-365"}
+      ],
+      "Thursday": [
+        {"time": "8:15-9:45", "event": "Network Securite L4", "room": "C4-365"},
+        {"time": "10:00-11:30", "event": "Network Securite S4", "room": "C4-365"}
+      ],
+      "Friday": [
+        {"time": "8:15-9:45", "event": "Network Securite L5", "room": "C4-365"},
+        {"time": "10:00-11:30", "event": "Network Securite S5", "room": "C4-365"}
+      ]
+    },
+    "Semaine 15 juillet au 21 juillet": {
+      "Monday": [
+        {"time": "10:00-11:30", "event": "English S1", "room": "C2-86"},
+        {"time": "12:30-14:00", "event": "Network Securite L6", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "Network Securite S6", "room": "C4-365"}
+      ],
+      "Tuesday": [
+        {"time": "10:00-11:30", "event": "English S2", "room": "C2-86"},
+        {"time": "12:30-14:00", "event": "Network Securite L7", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "Network Securite S7", "room": "C4-365"}
+      ],
+      "Wednesday": [
+        {"time": "8:15-9:45", "event": "Network Securite L8", "room": "C4-365"},
+        {"time": "10:00-11:30", "event": "Network Securite S8", "room": "C4-365"},
+        {"time": "12:30-14:00", "event": "English S3", "room": "C2-86"}
+      ],
+      "Thursday": [
+        {"time": "8:15-9:45", "event": "Network Securite L9", "room": "C4-365"},
+        {"time": "10:00-11:30", "event": "Network Securite S9", "room": "C4-365"}
+      ],
+      "Friday": [
+        {"time": "8:15-9:45", "event": "VoIP L9", "room": "C4-365"},
+        {"time": "10:00-11:30", "event": "VoIP S9", "room": "C4-365"}
+      ]
+    },
+    "Semaine 22 juillet au 28 juillet": {
+      "Monday": [
+        {"time": "8:15-9:45", "event": "Probability & Statistics L1", "room": "D3-209"},
+        {"time": "10:00-11:30", "event": "Probability & Statistics L2", "room": "D3-209"},
+        {"time": "12:30-14:00", "event": "Probability & Statistics S1", "room": "C3-54"},
+        {"time": "14:15-15:45", "event": "VoIP L2", "room": "C4-365"},
+        {"time": "16:00-17:30", "event": "VoIP S2", "room": "C4-365"}
+      ],
+      "Tuesday": [
+        {"time": "8:15-9:45", "event": "Probability & Statistics L3", "room": "D3-209"},
+        {"time": "10:00-11:30", "event": "Probability & Statistics L4", "room": "D3-209"},
+        {"time": "12:30-14:00", "event": "Probability & Statistics S2", "room": "C3-54"},
+        {"time": "14:15-15:45", "event": "VoIP L3", "room": "C4-365"},
+        {"time": "16:00-17:30", "event": "VoIP S3", "room": "C4-365"}
+      ],
+      "Wednesday": [
+        {"time": "8:15-9:45", "event": "Probability & Statistics L5", "room": "D3-209"},
+        {"time": "10:00-11:30", "event": "Probability & Statistics S3", "room": "C3-54"},
+        {"time": "12:30-14:00", "event": "VoIP L4", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "VoIP S4", "room": "C4-365"}
+      ],
+      "Thursday": [
+        {"time": "8:15-9:45", "event": "Probability & Statistics L6", "room": "D3-209"},
+        {"time": "10:00-11:30", "event": "Probability & Statistics S4", "room": "C3-54"},
+        {"time": "12:30-14:00", "event": "VoIP L5", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "VoIP S5", "room": "C4-365"}
+      ],
+      "Friday": [
+        {"time": "8:15-9:45", "event": "Probability & Statistics L7", "room": "D3-209"},
+        {"time": "10:00-11:30", "event": "Probability & Statistics S5", "room": "C3-54"},
+        {"time": "12:30-14:00", "event": "VoIP L6", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "VoIP S6", "room": "C4-365"}
+      ]
+    },
+    "Semaine 29 juillet au 04 aout": {
+      "Monday": [
+        {"time": "8:15-9:45", "event": "Probability & Statistics L8", "room": "D3-209"},
+        {"time": "10:00-11:30", "event": "Probability & Statistics L9", "room": "D3-209"},
+        {"time": "12:30-14:00", "event": "Probability & Statistics S6", "room": "C3-54"},
+        {"time": "14:15-15:45", "event": "VoIP L7", "room": "C4-365"},
+        {"time": "16:00-17:30", "event": "VoIP S7", "room": "C4-365"}
+      ],
+      "Tuesday": [
+        {"time": "8:15-9:45", "event": "Probability & Statistics L10", "room": "D3-209"},
+        {"time": "10:00-11:30", "event": "Probability & Statistics S7", "room": "B-671"},
+        {"time": "12:30-14:00", "event": "VoIP L8", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "VoIP S8", "room": "C4-365"}
+      ],
+      "Wednesday": [
+        {"time": "8:15-9:45", "event": "Probability & Statistics L11", "room": "D3-209"},
+        {"time": "10:00-11:30", "event": "Probability & Statistics S8", "room": "C3-54"},
+        {"time": "12:30-14:00", "event": "VoIP L9", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "VoIP S8", "room": "C4-365"}
+      ],
+      "Thursday": [
+        {"time": "8:15-9:45", "event": "Probability & Statistics L12", "room": "D3-209"},
+        {"time": "10:00-11:30", "event": "Probability & Statistics S9", "room": "C3-54"},
+        {"time": "12:30-14:00", "event": "VoIP L10", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "VoIP S10", "room": "C4-365"}
+      ],
+      "Friday": [
+        {"time": "8:15-9:45", "event": "Probability & Statistics L13", "room": "D3-209"},
+        {"time": "10:00-11:30", "event": "Probability & Statistics S10", "room": "D3-209"}
+      ]
+    }
+  }
+  

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div id="button">
+            <button id="prev-week" class="nav-button">&lt;</button>
+            <button id="next-week" class="nav-button">&gt;</button>
+        </div>
+        <table class="static-calendar">
+            <thead>
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td><td>30</td><td>31</td><td>1</td><td>2</td><td>3</td><td>4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="calendar">
+        <div class="calendar-header">
+            <h1 id="week-title">Weekly Schedule</h1>
+            <div id="calendar-month-year"></div>
+        </div>
+        <div class="calendar-body">
+            <div class="calendar-weekdays">
+                <div>Time</div>
+                <div>Monday</div>
+                <div>Tuesday</div>
+                <div>Wednesday</div>
+                <div>Thursday</div>
+                <div>Friday</div>
+                <div>Saturday</div>
+                <div>Sunday</div>
+            </div>
+            <div class="calendar-timeslots" id="calendar-timeslots">
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
