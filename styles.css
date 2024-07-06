@@ -283,4 +283,13 @@ body {
         flex: 1; /* Permet aux boutons de remplir l'espace disponible de manière égale */
         margin: 0 5px; /* Ajoute un petit espace entre les boutons */
     }
+
+    .calendar-weekdays div, .calendar-timeslots div {
+        padding: 5px 0; /* Réduit le padding sur les petits écrans */
+        font-size: 12px; /* Ajustez la taille de la police pour mieux s'adapter */
+    }
+
+    .calendar-weekdays div, .calendar-timeslots div {
+        flex: 1 1 0px; /* Chaque div peut grandir et rétrécir de la même manière, avec une base de 0px */
+    }
 }
