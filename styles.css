@@ -60,6 +60,7 @@ body {
 
 .container {
     width : 80%;
+    overflow-y: scroll;
 }
 
 .plan {
@@ -92,7 +93,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .calendar-weekdays {
@@ -293,12 +294,15 @@ body {
 
     .mobile-nav-buttons {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: center; 
-        width: 100%; 
-        background-color: #f0f0f5; 
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        padding: 10px 0; 
+        align-items: center;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+        position: fixed;
+        left: 40%;
+        top: 80%;
     }
 
     .calendar-weekdays div, .calendar-timeslots div {
