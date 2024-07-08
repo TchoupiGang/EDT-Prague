@@ -7,6 +7,7 @@ body {
     justify-content: space-between;
     align-items: stretch;
     height: 100vh;
+    overflow: scroll;
 }
 
 .sidebar {
@@ -60,7 +61,8 @@ body {
 
 .container {
     width : 80%;
-    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
 }
 
 .plan {
@@ -92,7 +94,7 @@ body {
 .calendar-body {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     overflow-y: hidden;
 }
 
@@ -290,6 +292,7 @@ body {
         width: 100%; 
         float: none; 
         border-radius: 0px;
+        overflow-y: scroll;
     }
 
     .mobile-nav-buttons {
@@ -303,6 +306,7 @@ body {
         position: fixed;
         left: 40%;
         top: 80%;
+        z-index: 2;
     }
 
     .calendar-weekdays div, .calendar-timeslots div {
@@ -319,5 +323,6 @@ body {
         display: block;
         flex-direction: column;
         align-items: center;
+        overflow-y: scroll;
     }
 }
