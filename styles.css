@@ -97,6 +97,7 @@ body {
     flex-direction: column;
     flex: 0 0 auto;
     overflow-y: hidden;
+    padding-bottom: 80px;
 }
 
 .calendar-weekdays {
@@ -294,6 +295,10 @@ body {
         float: none; 
         border-radius: 0px;
         overflow-y: scroll;
+    }
+
+    .calendar-body {
+        padding-bottom: 40px;
     }
 
     .mobile-nav-buttons {
