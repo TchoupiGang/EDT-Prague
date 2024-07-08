@@ -7,7 +7,6 @@ body {
     justify-content: space-between;
     align-items: stretch;
     height: 100vh;
-    overflow: scroll;
 }
 
 .sidebar {
@@ -52,6 +51,7 @@ body {
     cursor: pointer;
     border-radius: 10px;
     font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-button:disabled {
@@ -82,6 +82,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 }
 
 .calendar-header {
@@ -300,12 +301,12 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         padding: 10px 0;
         position: fixed;
-        left: 40%;
-        top: 80%;
+        z-index: 2;
+        width: auto;
+        bottom: 10px; 
+        right: 10px;
         z-index: 2;
     }
 
