@@ -7,16 +7,16 @@
         {"time": "14:15-17:30", "event": "Network Securite S1", "room": "C4-365"}
       ],
       "Tuesday": [
-        {"time": "12:30-14:00", "event": "Network Securite L2", "room": "C4-365"},
-        {"time": "14:15-17:30", "event": "Network Securite S2", "room": "C4-365"}
+        {"time": "8:15-9:45", "event": "Network Securite L2", "room": "C4-365"},
+        {"time": "10:00-11:30", "event": "Network Securite S2", "room": "C4-365"}
       ],
       "Wednesday": [
         {"time": "12:30-14:00", "event": "Network Securite L3", "room": "C4-365"},
         {"time": "14:15-17:30", "event": "Network Securite S3", "room": "C4-365"}
       ],
       "Thursday": [
-        {"time": "8:15-9:45", "event": "Network Securite L4", "room": "C4-365"},
-        {"time": "10:00-11:30", "event": "Network Securite S4", "room": "C4-365"}
+        {"time": "12:30-14:00", "event": "Network Securite L4", "room": "C4-365"},
+        {"time": "14:15-17:30", "event": "Network Securite S4", "room": "C4-365"}
       ],
       "Friday": [
         {"time": "8:15-9:45", "event": "Network Securite L5", "room": "C4-365"},
