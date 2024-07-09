@@ -146,6 +146,26 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error fetching data:', error));
     updateWeekHighlight();
+
+    var rows = document.querySelectorAll('tbody tr');
+    rows.forEach(function(row) {
+        row.addEventListener('click', function() {
+            var idLigne = this.id;
+            onclick_week_change(idLigne)
+        });
+    });
+
+    function onclick_week_change(index_owo){
+        index_owo--
+        loadWeekData(index_owo);
+        weeks.forEach((week, index) => {
+            if (index === index_owo) {
+                week.classList.add('highlight-week');
+            } else {
+                week.classList.remove('highlight-week');
+            }
+        });
+    }
 });
 
 
